@@ -15,6 +15,40 @@ Searches done by Mylar using DDL iterate over various combinations of the comicn
 ---
 
 
+**- Why does a search take so long? I have multiple indexers!**
+
+All searches with Mylar use iteration, spread one minute apart. Depending on book type selection there can be up to 5 calls per indexer all spread 1 minute apart. This can delay when the indexers in front truly don't have the book, :
+Mylar will continue until it finds the books on an active indexer or source. This is why sometimes a single good indexer or DC++ Hub will result in not only faster searches but more successful grabs.
+
+---
+
+
+**- My torrent indexers never seem to find anything.**
+
+Torrents are genuinely not a great source for comics packaged in individual issues/books which is what Mylar is searching for outside of DDL. Because of this it's highly recommended unless you're part of a comic specific torrent site :
+to rely on other sources.
+
+---
+
+
+**- I'm using Docker for Mylar and my downloads from SABnzb/Air DC++ are not being processed. Please help!**
+
+There's three common causes for this.
+
+1.) Permissions are not correct - Mylar when in Docker should have `Enforce Permmissions` turned off in the `Web Interface` tab. This allows the host system to handle the permissions, as a file owned by the Mylar conatiner user may not :
+be otherwise accessible to other users.
+
+2.) 
+   SAB users A.) Make sure `Are Mylar / SABnzbd on separate machines` is checked and your `SABnzbd Download Directory` is set to the location that Mylar sees within the conatiner. For example, if you mounted your downloads in :
+   `/downloads/comics/` for SABnzbd but Mylar sees this as `/comics/` you would put `/comics/` here.
+
+   Air DC++ users B.) Ensure your `Downloads Directory` is set for the directory that Air DC++ is downloading to as Mylar sees it. Please see example above as it's the same principle just different location for the setting.
+
+3.) This is a SABnzbd specific setting, `Mylar Host Override:` on the `Download Settings` page, set this to how Mylar appears to any other device on the network (for example `192.1.0.42:8090` or if a proxy or DNS server is in use for your LAN `mylar.domain.com` so long as it is traversable to Mylar) and the NZB should send successfully to SABnzbd and be visible to Mylar. 
+
+---
+
+
 **- I selected `Year Removal` on `Edit Settings` on my comic, yet it didn't do anything when searching for downloads.**
 
 `Year Removal` only works for `print` volumes. If it's a non print, usually there's no issue number so it uses the year to help determine if it's provided.
