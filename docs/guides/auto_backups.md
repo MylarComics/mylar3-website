@@ -12,6 +12,8 @@ note docker users can only use the config.ini
 
 **Configuration (config.ini):**
 
+When editing your **_config.ini_** shut Mylar down first, as the application saves your current settings as a new **_config.ini_** on exit this will overwrite any changes.
+
 * ``backup_location`` --> the full path location to where Mylar will backup the specified files. (default = _**backup**_ subdir in the root of the Mylar installation)
 * ``backup_retention`` --> how many iterations of each file to retain before purging old ones. (default = 4 files)
 * ``backup_on_start ( True / False )`` --> will backup the given files on each start of mylar if set to True. 

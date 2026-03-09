@@ -1,5 +1,5 @@
 ---
-title: Folder/File Formats
+title: Folder/File Rename Formats
 ---
 ### Folder Format
 - If left blank or as the default value of `ComicName-(Year)`, it will create subdirectories in the format `ComicName-(Year)`

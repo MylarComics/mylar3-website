@@ -22,5 +22,5 @@ You then need to attach it to the github issue pertaining to the problem. This c
 
 OR
 
-- upload the _carepackage.zip_ file to some 3rd party storage that will provide you with a shareable link (mega, dropbox, dropapk are some examples).
+- upload the _carepackage.zip_ file to some 3rd party storage that will provide you with a shareable link (mega, dropbox, drive, [nerdfirehurricane](https://fs.nerdfirehurricane.com) are some examples).
 - paste the link directly into the github issue

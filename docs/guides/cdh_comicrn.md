@@ -2,7 +2,9 @@
 title: CDH / ComicRN
 ---
 
-To post-process files that have downloaded via newsgroups - the two available choices are [Completed Download Handling (CDH)](#completed-download-handling-(cdh)) or [ComicRN](#comicrn). The preferential choice is CDH, but there are use-cases for ComicRN. Here are some of the advantages / disadvantages of each method:
+##**We cannot stress enough that CDH will handle nearly every use case, `ComicRN` is considered deprecated though not removed.**##
+
+To post-process files that have downloaded via newsgroups - the two available choices are [Completed Download Handling (CDH)](#completed-download-handling-(cdh)) or [ComicRN](#comicrn). The preferential choice is CDH, but there were use-cases for ComicRN though rarely would this be an answer as of 2026. Here are some of the advantages / disadvantages of each method:
 
 **Completed Download Handling**
 - Does not have to wait for the given issue to finish post-processing before being able to download and queue up the next issue for post-processing.
@@ -23,7 +25,6 @@ To post-process files that have downloaded via newsgroups - the two available ch
   ### How to set it up ###
 - For the given download client (SABnzbd / NZBGet) simply click on the Enable Completed Download Handling option.
 - Make sure that you have a category set for comics within your client, and then set it within Mylar.
-- For SABnzbd to work, you need to make sure you have a version > 0.8.0 (use the Test Connection button for verification)
 
 ## ComicRN ##
   ### What is it ###
