@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'cducharme84', // Usually your GitHub org/user name.
-  projectName: 'mylar3-website/', // Usually your repo name.
+  projectName: 'mylar3-website', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/${organizationName}/${projectName}/tree/main/',
+            'https://github.com/cducharme84/mylar3-website/tree/main/',
         },
         blog: {
           showReadingTime: true,
