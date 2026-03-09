@@ -29,6 +29,11 @@ const sidebars = {
                     label: 'Base requirements'
                 },
                 {
+                    type: 'doc',
+                    id: 'installation/cv_cache',
+                    lavel: 'Comic Vine Cache'
+                },
+                {
                     type: 'category',
                     label: 'Official methods',
                     link: {
