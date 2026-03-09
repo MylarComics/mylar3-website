@@ -24,7 +24,7 @@ We have added AirDC++ support to Mylar, to enable the checkbox is under (_Config
 
 ### Torrents
 
-### Please note torrents "work" in that if you have an indexer that posts individual issues rahter than packs that are named somewhat sanely they would get grabbed. If this indexer exists, the team is completely unaware of it. Consider torrents a waste of searching time at this juncture.
+### Please note torrents "work" in that if you have an indexer that posts individual issues rather than packs that are named somewhat sanely they would get grabbed. If this indexer exists, the team is completely unaware of it. Consider torrents a waste of searching time at this juncture.
 
 There is no completed processing for torrents. There are methods available however:
 
