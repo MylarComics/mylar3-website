@@ -2,7 +2,7 @@
 title: CDH / ComicRN
 ---
 
-##**We cannot stress enough that CDH will handle nearly every use case, `ComicRN` is considered deprecated though not removed.**##
+## **We cannot stress enough that CDH will handle nearly every use case, `ComicRN` is considered deprecated though not removed.** ##
 
 To post-process files that have downloaded via newsgroups - the two available choices are [Completed Download Handling (CDH)](#completed-download-handling-(cdh)) or [ComicRN](#comicrn). The preferential choice is CDH, but there were use-cases for ComicRN though rarely would this be an answer as of 2026. Here are some of the advantages / disadvantages of each method:
 
