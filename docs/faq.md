@@ -79,6 +79,6 @@ As you can see here, I have used `219` requests from `/issue` endpoint or resour
 
 **Using the same ComicVine key for multiple apps means they will not be aware of each other's usage, ComicVine's API doesn't provide responses showing that you're rate limited it just fails the transaction.**
 
-**You can avoid this using a [CV Cache](/installation/cv_cache) just keep in mind the cache(s) are point in time endeavors and are only as updated as their admin's workflow allows. It (they in the future?) however are a reliably fantastic tool for your bulk tagging of books a few months old or more and can save some API headaches when starting with an existing comic collection.**
+**You can avoid this using a [CV Cache](/docs/installation/cv_cache) just keep in mind the cache(s) are point in time endeavors and are only as updated as their admin's workflow allows. It (they in the future?) however are a reliably fantastic tool for your bulk tagging of books a few months old or more and can save some API headaches when starting with an existing comic collection.**
 
 Minor note: If you send the exact same request to CV's API within the same minute, it may not increase your API usage due to Cloudflare's caching setup. Do not expect the API to reflect those calls as they do not actually reach it.
