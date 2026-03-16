@@ -67,7 +67,7 @@ You can use the `Alternate Search Name` on `Edit Settings` to set up an alternat
 
 ComicVine's API site is kind of confusing, they are measuring multiple things. Where you see the request rate mentioned above, there are various API endpoints shown with how many times you've used each in the last hour. This is far more important than request rate (see below this image shows a fine request rate despite an endpoint being exhausted) to determine whether you have room within your ComicVine API limits.
 
-![ComicVine API screenshot](/static/img/cvapi.jpg)
+![ComicVine API screenshot](/img/cvapi.jpg)
 
 As you can see here, I have used `219` requests from `/issue` endpoint or resource as it's referred to in the CV documents within an hour. Because of this usage I can expect any individual tags of issues will fail, while other endpoints/resources will operate as expected. Note the word `requests` if you see a number above 200, this does not mean successfully grabbed data. That's just how many requests over the limit that were tried and failed.
 
