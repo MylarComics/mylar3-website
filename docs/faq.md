@@ -6,7 +6,7 @@ title: Frequently Asked Questions (FAQ)
 - Enabling year removal doesn't give me the results I want
 - The series is named something different than what mylar says - how can I fix it?
 
-**- Mylar can't find a comic with DDL as a provider, even though the comic name, when searched via browser on GetComics.info gives 1 result with a Direct Download link**
+#####- Mylar can't find a comic with DDL as a provider, even though the comic name, when searched via browser on GetComics.info gives 1 result with a Direct Download link
 
 Searches done by Mylar using DDL iterate over various combinations of the comicname, issue number, year and the book type.  Sometimes changing the comic type can make it get snatched and downloaded. For example, from One-Shot to TPB, : `Edit Settings` --> `Force-Type (original:One-Shot)` --> `TPB`. Or sometimes checking `Accept all booktype search matches` can make it work.
 
@@ -15,7 +15,7 @@ Searches done by Mylar using DDL iterate over various combinations of the comicn
 ---
 
 
-**- Why does a search take so long? I have multiple indexers!**
+##### - Why does a search take so long? I have multiple indexers!
 
 All searches with Mylar use iteration, spread one minute apart. Depending on book type selection there can be up to 5 calls per indexer all spread 1 minute apart. This can delay when the indexers in front truly don't have the book, :
 Mylar will continue until it finds the books on an active indexer or source. This is why sometimes a single good indexer or DC++ Hub will result in not only faster searches but more successful grabs.
@@ -23,7 +23,7 @@ Mylar will continue until it finds the books on an active indexer or source. Thi
 ---
 
 
-**- My torrent indexers never seem to find anything.**
+##### - My torrent indexers never seem to find anything.
 
 Torrents are genuinely not a great source for comics packaged in individual issues/books which is what Mylar is searching for outside of DDL. Because of this it's highly recommended unless you're part of a comic specific torrent site :
 to rely on other sources.
@@ -31,7 +31,7 @@ to rely on other sources.
 ---
 
 
-**- I'm using Docker for Mylar and my downloads from SABnzb/Air DC++ are not being processed. Please help!**
+##### - I'm using Docker for Mylar and my downloads from SABnzb/Air DC++ are not being processed. Please help!
 
 There's three common causes for this.
 
@@ -49,21 +49,21 @@ be otherwise accessible to other users.
 ---
 
 
-**- I selected `Year Removal` on `Edit Settings` on my comic, yet it didn't do anything when searching for downloads.**
+##### - I selected `Year Removal` on `Edit Settings` on my comic, yet it didn't do anything when searching for downloads.
 
 `Year Removal` only works for `print` volumes. If it's a non print, usually there's no issue number so it uses the year to help determine if it's provided.
 
 ---
 
 
-**- The _ComicVine_ name of my comic yields no results from DDL. But if I could change the name of the comic it would get a match on DDL**
+##### - The _ComicVine_ name of my comic yields no results from DDL. But if I could change the name of the comic it would get a match on DDL
 
 You can use the `Alternate Search Name` on `Edit Settings` to set up an alternative name to be used when searching for that issue on DDL. You can have multiple Alternate Search Names by separating each with ``##``. If you would like one name in particular to be used first above everything else (even the CV name), put ``!!`` in front of the name in the Alternate Search Names field. 
 
 ---
 
 
-**- My _ComicVine_ [API](https://comicvine.gamespot.com/api) page says `Your request rate is fine` but Mylar's logs show network errors when tagging issues or refreshing.**
+##### - My _ComicVine_ [API](https://comicvine.gamespot.com/api) page says `Your request rate is fine` but Mylar's logs show network errors when tagging issues or refreshing.
 
 ComicVine's API site is kind of confusing, they are measuring multiple things. Where you see the request rate mentioned above, there are various API endpoints shown with how many times you've used each in the last hour. This is far more important than request rate (see below this image shows a fine request rate despite an endpoint being exhausted) to determine whether you have room within your ComicVine API limits.
 
