@@ -6,7 +6,7 @@ title: Frequently Asked Questions (FAQ)
 - Enabling year removal doesn't give me the results I want
 - The series is named something different than what mylar says - how can I fix it?
 
-#####- Mylar can't find a comic with DDL as a provider, even though the comic name, when searched via browser on GetComics.info gives 1 result with a Direct Download link
+##### - Mylar can't find a comic with DDL as a provider, even though the comic name, when searched via browser on GetComics.info gives 1 result with a Direct Download link
 
 Searches done by Mylar using DDL iterate over various combinations of the comicname, issue number, year and the book type.  Sometimes changing the comic type can make it get snatched and downloaded. For example, from One-Shot to TPB, : `Edit Settings` --> `Force-Type (original:One-Shot)` --> `TPB`. Or sometimes checking `Accept all booktype search matches` can make it work.
 
