@@ -73,6 +73,7 @@ const sidebars = {
                 'guides/locmove',
                 'guides/windows_service',
                 'guides/dev_resources',
+                'guides/cbl_import',
             ],
         },
         'contributing',
