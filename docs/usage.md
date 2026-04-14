@@ -4,7 +4,7 @@ title: Basic Usage
 
 From a command line/shell and in the location where Mylar is installed - typing `<python executable> Mylar.py --help` will give a list of available options, and/or removing the ``--help`` switch will start Mylar.
 
-When Mylar is [first started](https://github.com/mylar3/mylar3/wiki/Installation-Instructions#how-to-start-mylar), it will generate a default config.ini, a mylar.db and will listen on the local interface only. Here are the 2 most common setups:
+When Mylar is [first started](https://github.com/MylarComics/mylar3/wiki/Installation-Instructions#how-to-start-mylar), it will generate a default config.ini, a mylar.db and will listen on the local interface only. Here are the 2 most common setups:
 
 - Mylar is on same machine as the browser you're going to use:
     - Browse to ``http://localhost:8090`` / ``http://127.0.0.1:8090``

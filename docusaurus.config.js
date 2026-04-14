@@ -85,13 +85,13 @@ const config = {
           },
           {to: '/docs/api/endpoints', label: 'API', position: 'left'},
           {
-            href: 'https://discord.gg/6UG94R7E8T',
+            href: 'https://discord.gg/6qpyCZRZRB',
             className: 'header-discord-link',
             'aria-label': 'Discord server',
             position: 'right',
           },
           {
-            href: 'https://github.com/mylar3/mylar3',
+            href: 'https://github.com/MylarComics/mylar3',
             className: 'header-github-link',
             'aria-label': 'GitHub',
             position: 'right',
@@ -115,7 +115,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discord.gg/6UG94R7E8T',
+                href: 'https://discord.gg/6qpyCZRZRB',
               },
             ],
           },
@@ -124,7 +124,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/mylar3/mylar3',
+                href: 'https://github.com/MylarComics/mylar3',
               },
             ],
           },

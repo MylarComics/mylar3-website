@@ -21,4 +21,4 @@ comicvine_url = https://cvcache.titor.dev/api/
 
 ## Notes:
 
-This is run by user barrelltitor on our [Discord](https://discord.gg/6UG94R7E8T) and has a fairly large if not nearly complete cache of the CV data, though it is manually updated.
+This is run by user barrelltitor on our [Discord](https://discord.gg/6qpyCZRZRB) and has a fairly large if not nearly complete cache of the CV data, though it is manually updated.

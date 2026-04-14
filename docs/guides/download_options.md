@@ -9,7 +9,7 @@ It is imperative that you enable the post-processing option if you require post-
 When using DDL, post-processing will be initiated immediately upon successful completion. By default the items are downloaded to the cache directory location and removed after post-processing. However, if you wish to change the default directory location, specify the full directory location in the config.ini `ddl_location` field.
 
 ### Newsgroups
-There are 2 ways to perform post-processing within Mylar (CDH & ComicRN detailed [here](https://github.com/mylar3/mylar3/wiki/CDH-or-ComicRN)), however you cannot use both options simultaneously and CDH is highly encouraged. 
+There are 2 ways to perform post-processing within Mylar (CDH & ComicRN detailed [here](https://github.com/MylarComics/mylar3/wiki/CDH-or-ComicRN)), however you cannot use both options simultaneously and CDH is highly encouraged. 
 
 ### AirDC++
 We have added AirDC++ support to Mylar, to enable the checkbox is under (_Configuration --> Search Providers --> AirDC++_) once checked you'll have options to setup your information as below:
