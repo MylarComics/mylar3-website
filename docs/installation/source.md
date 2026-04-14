@@ -15,8 +15,8 @@ description: github or source
 ## Source Installation
 
 1. Download the zip of the desired source branch (master / python3-dev):
-    * [stable](https://github.com/mylar3/mylar3/archive/refs/heads/python3-dev.zip)
-    * [development](https://github.com/mylar3/mylar3/archive/refs/heads/1000papercuts.zip)
+    * [stable](https://github.com/MylarComics/mylar3/archive/refs/heads/python3-dev.zip)
+    * [development](https://github.com/Mylarcomics/mylar3/archive/refs/heads/1000papercuts.zip)
 1. Unpack in the directory of your choice
 1. See [install requirements](source#installation-requirements)
 

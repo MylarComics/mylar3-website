@@ -8,7 +8,7 @@ We're always looking for people to help make Mylar3 even better, and there are a
 - [Assisting others with Mylar3](#assisting-others-with-mylar3)
 
 ## Bug Reporting / Enchancement Requests ##
-Bugs (issues) and Enhancements are encouraged to be reported on the [Github issue](https://github.com/mylar3/mylar3/issues) tracker, provided that you:
+Bugs (issues) and Enhancements are encouraged to be reported on the [Github issue](https://github.com/Mylar-Comics/mylar3/issues) tracker, provided that you:
 
 - Search existing recent OPEN issues. If an issue is closed, please don't add to it even if you think it's relevant. Though you're welcome to link it in the new issue.
 - Always follow the issue template!
@@ -16,9 +16,9 @@ Bugs (issues) and Enhancements are encouraged to be reported on the [Github issu
 - Close your issue when it's solved!
 
 ## Documentation ##
-Pull requests to the website [repo](https://github.com/Cducharme84/mylar3-website) against the "main" branch are welcome for new articles as well as refinements. You can reach out to the Mylar gang at our [discord](https://discord.gg/6UG94R7E8T).
+Pull requests to the website [repo](https://github.com/MylarComics/mylar3-website) against the "main" branch are welcome for new articles as well as refinements. You can reach out to the Mylar gang at our [discord](https://discord.gg/6qpyCZRZRB).
 
-The more information we have on the [wiki](https://github.com/mylar3/mylar/wiki) the better.
+The more information we have on the [wiki](https://github.com/MylarComics/mylar/wiki) the better.
 
 ### Contributing code (Pull Requests) ###
 - Reach out to us on our , if you have any questions.
@@ -33,5 +33,5 @@ The more information we have on the [wiki](https://github.com/mylar3/mylar/wiki)
 ## Assisting others with Mylar3 ##
 This one is pretty simple - we can't be everywhere to help out everyone with their problems related to Mylar3. We try our best, but we are not going to get them all. 
 
-Helping someone, our [discord](https://discord.gg/6UG94R7E8T), is our primary aspect of supporting users outside of Github, and any and all help guiding folks to best practices is welcomed!
+Helping someone, our [discord](https://discord.gg/6qpyCZRZRB), is our primary aspect of supporting users outside of Github, and any and all help guiding folks to best practices is welcomed!
 
