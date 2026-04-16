@@ -14,20 +14,20 @@ description: github or source
 
 ## Source Installation
 
-1. Download the zip of the desired source branch (master / python3-dev):
-    * [stable](https://github.com/MylarComics/mylar3/archive/refs/heads/python3-dev.zip)
-    * [development](https://github.com/Mylarcomics/mylar3/archive/refs/heads/1000papercuts.zip)
+1. Download the zip of the desired source branch (stable / nightly):
+    * [stable](https://github.com/MylarComics/mylar3/archive/refs/heads/stable.zip)
+    * [development](https://github.com/Mylarcomics/mylar3/archive/refs/heads/nightly.zip)
 1. Unpack in the directory of your choice
 1. See [install requirements](source#installation-requirements)
 
 ***
 
-## Git Installation
+## Git Installation (Preferred)
 1. Open up a command prompt/shell.
 1. If the directory does not exist in the location where you want the program files to be located, create it.
 1. Clone the chosen repository into the given directory once you've changed into the directory:
-    * stable - ```git clone -b python3-dev git@github.com:mylar3/mylar3.git```
-    * development - ```git clone -b 1000papercuts git@github.com:mylar3/mylar3.git```
+    * stable - ```git clone -b stable git@github.com:MylarComics/mylar3.git```
+    * development - ```git clone -b nightly git@github.com:MylarComics/mylar3.git```
 1. See [install requirements](source#installation-requirements)
 
 ***
