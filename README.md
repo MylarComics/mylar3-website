@@ -7,12 +7,12 @@
 Feel free to open an issue first to discuss what you would like to change, or hop on Discord to chat about it.
 
 ## Issues
-Open issues on the [main repo](https://github.com/mylar/mylar3/) branch to keep things all in one place.
+Open issues on the [main repo](https://github.com/MylarComics/mylar3/) to keep things all in one place.
 
 ## Repos
 
-* [Mylar3](https://github.com/mylar3/mylar3/) `master` is retired - Please use `python3-dev` as stable replacement and `1000papercuts` if you want to avoid lime juice and test new features.
-* [Mylar3 website (mylarcomics.com)](https://github.com/mylar3/mylar3-website) Domain expired, new and shiny replacement "soon"
+* [Mylar3](https://github.com/MylarComics/mylar3/) The Mylar3 application
+* [Mylar3 website (https://mylar.nerdfirehurricane.com/)](https://github.com/MylarComics/mylar3-website) The Mylar documentation site
 
 ## Website
 

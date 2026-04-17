@@ -16,9 +16,8 @@ In addition to the [base requirements](base_requirements):
 ## Installation
 
 1. Pull the docker image of choice
-    * For [stable](https://github.com/MylarComics/mylar3/tree/python3-dev) releases: `docker pull lscr.io/linuxserver/mylar3:latest`
-    * For [development](https://github.com/MylarComics/mylar3/tree/1000papercuts) releases: `docker pull lscr.io/linuxserver/mylar3:nightly` or `docker pull lscr.io/linuxservermylar3:unstable` 
-    **Unstable is a testing branch for Python 3.12 compatible code.**
+    * For [stable](https://github.com/MylarComics/mylar3/) releases: `docker pull lscr.io/linuxserver/mylar3:latest`
+    * For [development](https://github.com/MylarComics/mylar3/tree/nightly) releases: `docker pull lscr.io/linuxserver/mylar3:nightly`
   
     **BE AWARE**: If the development releases break, you get to keep the parts.
 1. Run the image

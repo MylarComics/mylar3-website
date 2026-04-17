@@ -8,7 +8,7 @@ There are a few GitHub Actions workflows configured on the repository.  GitHub a
 ![GitHub Actions](/img/github_actions_enable.png)
 
 ### Smoke Tests - Push to Feature Branches
-Pushes to branches that are not `stable`, `testing`, or `unstable` will trigger a build and test job on all supported flavours of Python (3.8-3.11 at time of writing) on both Linux and Windows hosts.  Testing is currently just a smoke test to check that Mylar launches and loads each page.
+Pushes to branches that are not `stable` or `nightly` will trigger a build and test job on all supported flavours of Python (3.8-3.11 at time of writing) on both Linux and Windows hosts.  Testing is currently just a smoke test to check that Mylar launches and loads each page.
 
 ### Docker - Build & Publish Feature Container
 Another job triggered on pushes to feature branches, this will build a Docker image from the branch based on the [LinuxServer.io image](https://docs.linuxserver.io/images/docker-mylar3/).  The image will be pushed to the GitHub Container Repository and you can see these under the Packages section on your fork.  An additional port is exposed in the image and can be mapped (5678) for the container.  This port will enable you to attach to [debugpy](https://github.com/microsoft/debugpy) running Mylar within the container.
@@ -40,7 +40,7 @@ Here is an example `launch.json` configuration to attach to this container from 
 Runs of the tests in the project are not currently triggered automatically, but can be initiated manually from the Actions tab.  Tests will be run on both Linux and Windows, on the minimum and maxiumum supported Python versions.
 
 ## pytest Test Suite
-The pytest test suite can be found under the `/tests` folder in the repository.  A [`README.md`](https://github.com/MylarComics/mylar3/blob/master/tests/README.md) file in the folder contains details of how to set up the tests.
+The pytest test suite can be found under the `/tests` folder in the repository.  A [`README.md`](https://github.com/MylarComics/mylar3/blob/stable/tests/README.md) file in the folder contains details of how to set up the tests.
 
 The test suite is not currently exhaustive and is being built up over time.  It is not mandatory to add to it with changes, but it would be nice to do so if any new functions/classes/methods/modules are introduced!
 
