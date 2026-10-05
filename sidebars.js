@@ -68,6 +68,7 @@ const sidebars = {
                 'guides/debug_logging',
                 'guides/auto_backups',
                 'guides/download_options',
+                'guides/jdownloader2',
                 'guides/cdh_comicrn',
                 'guides/formats',
                 'guides/locmove',
