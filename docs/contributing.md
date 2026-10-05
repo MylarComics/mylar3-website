@@ -7,7 +7,7 @@ We're always looking for people to help make Mylar3 even better, and there are a
 - [Contributing code](#contributing-code)
 - [Assisting others with Mylar3](#assisting-others-with-mylar3)
 
-## Bug Reporting / Enchancement Requests ##
+## Bug Reporting / Enhancement Requests ##
 Bugs (issues) and Enhancements are encouraged to be reported on the [Github issue](https://github.com/MylarComics/mylar3/issues) tracker, provided that you:
 
 - Search existing recent OPEN issues. If an issue is closed, please don't add to it even if you think it's relevant. Though you're welcome to link it in the new issue.
